@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 
 import { SignUpLink } from '../SignUp';
-import { PasswordForgetLink } from '../PasswordForget';
+
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../constants/routes';
 import { Formik, Field } from 'formik'
@@ -12,7 +12,6 @@ const SignInPage = () => (
     <div>
         {/*<h1 className={"sign_title"}>Sign in</h1>*/}
         <SignInForm />
-        <PasswordForgetLink />
         <SignUpLink />
     </div>
 );
