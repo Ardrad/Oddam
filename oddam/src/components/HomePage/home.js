@@ -5,9 +5,9 @@ import MainContent from "./Main/Main";
 import Achievements from "./Columns/Achievements";
 import FourSteps from "./Columns/FourSteps";
 import AboutUs from "./Columns/AboutUs";
-// import Collaborators from "./collaborators/Collaborators";
-// import ContactUs from "./contact/ContactUs";
-// import Footer from "./footer/Footer";
+import Footer from "./Footer/footer";
+import Contact from "./Contact/Contact";
+
 
 
 const Home = () => {
@@ -25,9 +25,8 @@ const Home = () => {
                 <Achievements/>
                 <FourSteps/>
                 <AboutUs name='AboutUs'/>
-            {/*    <Collaborators/>*/}
-            {/*    <ContactUs/>*/}
-            {/*    <Footer/>*/}
+                <Contact/>
+                <Footer/>
             </div>
         </>
 
